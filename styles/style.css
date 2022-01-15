@@ -409,8 +409,7 @@ footer p {
     .container,
     .youtube,
     .products,
-    .footer,
-    .banner {
+    .footer {
         flex-direction: column;
     }
     .products,
@@ -419,11 +418,14 @@ footer p {
     .footer {
         grid-template-columns: repeat(1, 1fr);
     }
+    .bannar {
+        display: block;
+    }
     .youtube {
         display: none;
     }
     .firstpage-size {
-        height: 1000px;
+        height: 1170px;
     }
     .second-page {
         height: 4300px;
@@ -438,7 +440,10 @@ footer p {
         display: none;
     }
     .see-more {
-        margin-top: 2670px;
+        margin-top: 2550px;
+    }
+    hr {
+        display: none;
     }
 }
 
@@ -456,6 +461,9 @@ footer p {
     .vloggers,
     .products {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .bannar {
+        display: block;
     }
     .youtube {
         display: none;
@@ -480,5 +488,8 @@ footer p {
     }
     .see-more {
         margin-top: 750px;
+    }
+    hr {
+        display: none;
     }
 }
