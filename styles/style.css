@@ -18,11 +18,6 @@ body {
     color: #4a69bd;
 }
 
-hr {
-    border: 1px solid #c2c2c2;
-    margin-bottom: 27px;
-}
-
 
 /* navbar */
 
@@ -421,29 +416,20 @@ footer p {
     .bannar {
         display: block;
     }
-    .youtube {
-        display: none;
-    }
     .firstpage-size {
         height: 1170px;
     }
     .second-page {
         height: 4300px;
     }
-    .navigation li {
-        display: none;
-    }
-    .company {
-        display: none;
-    }
+    .navigation li,
+    .youtube,
+    .company,
     .last-page {
         display: none;
     }
     .see-more {
         margin-top: 2550px;
-    }
-    hr {
-        display: none;
     }
 }
 
@@ -465,31 +451,18 @@ footer p {
     .bannar {
         display: block;
     }
-    .youtube {
-        display: none;
-    }
     .left-banner h1 {
         font-size: 25px;
     }
-    .navigation li {
-        display: none;
-    }
-    .company {
-        display: none;
-    }
-    .last-page {
+    .navigation li,
+    .company,
+    .last-page,
+    .second-page,
+    .see-more,
+    .youtube {
         display: none;
     }
     .firstpage-size {
         height: 1000px;
-    }
-    .second-page {
-        height: 2400px;
-    }
-    .see-more {
-        margin-top: 750px;
-    }
-    hr {
-        display: none;
     }
 }
