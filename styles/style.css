@@ -423,9 +423,9 @@ footer p {
         height: 4300px;
     }
     .navigation li,
-    .youtube,
     .company,
-    .last-page {
+    .last-page,
+    .youtube {
         display: none;
     }
     .see-more {
@@ -457,12 +457,16 @@ footer p {
     .navigation li,
     .company,
     .last-page,
-    .second-page,
-    .see-more,
     .youtube {
         display: none;
     }
     .firstpage-size {
         height: 1000px;
+    }
+    .second-page {
+        height: 2400px;
+    }
+    .see-more {
+        margin-top: 750px;
     }
 }
